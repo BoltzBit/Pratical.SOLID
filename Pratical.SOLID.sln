@@ -5,6 +5,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B391222-94C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratical.SOLID.Web", "src\Web\Pratical.SOLID.Web.csproj", "{C88F3799-7EE2-440B-A412-D528331EE5E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratical.SOLID.SRP", "src\SRP\Pratical.SOLID.SRP.csproj", "{F4FB90F8-390B-4390-87A1-F2B20ECB3AE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +21,13 @@ Global
 		{C88F3799-7EE2-440B-A412-D528331EE5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C88F3799-7EE2-440B-A412-D528331EE5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C88F3799-7EE2-440B-A412-D528331EE5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4FB90F8-390B-4390-87A1-F2B20ECB3AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FB90F8-390B-4390-87A1-F2B20ECB3AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FB90F8-390B-4390-87A1-F2B20ECB3AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FB90F8-390B-4390-87A1-F2B20ECB3AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C88F3799-7EE2-440B-A412-D528331EE5E1} = {5B391222-94CE-46EE-99FB-558F385B1DDA}
+		{F4FB90F8-390B-4390-87A1-F2B20ECB3AE7} = {5B391222-94CE-46EE-99FB-558F385B1DDA}
 	EndGlobalSection
 EndGlobal
