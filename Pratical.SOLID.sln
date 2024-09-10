@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratical.SOLID.SRP.Web", "src\Pratical.SOLID.SRP.Web\Pratical.SOLID.SRP.Web.csproj", "{EC392904-A2A2-4920-8C91-424DEB6289FE}"
+# 
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5B391222-94CE-46EE-99FB-558F385B1DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratical.SOLID.Web", "src\Web\Pratical.SOLID.Web.csproj", "{C88F3799-7EE2-440B-A412-D528331EE5E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,12 @@ Global
 		{EC392904-A2A2-4920-8C91-424DEB6289FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC392904-A2A2-4920-8C91-424DEB6289FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC392904-A2A2-4920-8C91-424DEB6289FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88F3799-7EE2-440B-A412-D528331EE5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88F3799-7EE2-440B-A412-D528331EE5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88F3799-7EE2-440B-A412-D528331EE5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88F3799-7EE2-440B-A412-D528331EE5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C88F3799-7EE2-440B-A412-D528331EE5E1} = {5B391222-94CE-46EE-99FB-558F385B1DDA}
 	EndGlobalSection
 EndGlobal

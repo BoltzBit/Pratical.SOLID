@@ -1,8 +1,8 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Pratical.SOLID.SRP.Web.Models;
+using Pratical.SOLID.Web.Models;
 
-namespace Pratical.SOLID.SRP.Web.Controllers;
+namespace Pratical.SOLID.Web.Controllers;
 
 public class HomeController : Controller
 {

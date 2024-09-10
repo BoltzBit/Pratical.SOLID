@@ -1,4 +1,4 @@
-namespace Pratical.SOLID.SRP.Web.Models;
+namespace Pratical.SOLID.Web.Models;
 
 public class ErrorViewModel
 {
